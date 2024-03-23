@@ -1,3 +1,4 @@
+@import 'reset.css';
 body{
-    background-color: red;
+    background-color: grey;
 }
