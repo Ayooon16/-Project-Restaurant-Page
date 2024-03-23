@@ -19,7 +19,7 @@ function createDescriptionCard(){
 }
 export function loadHome(){
     let content = document.getElementById('content')
-    content.innerHtml=''
+    content.innerHTML=''
     content.appendChild(createHomeCard())
     content.appendChild(createDescriptionCard())
 }
