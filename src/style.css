@@ -1,6 +1,9 @@
 @import 'reset.css';
 body{
     background-color: #0D5577;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header{
     width: 100%;
@@ -21,4 +24,11 @@ button{
     border-radius: 10px;
     border:none;
     font-size: 2rem;
+}
+#content{
+    border: 2px black solid;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
 }
