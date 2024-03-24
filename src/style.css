@@ -28,19 +28,25 @@ button{
 #content{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    max-width: 810px;
+    padding: 55px;
     align-items: center;
     gap: 30px;
+    background-color: #5b884b;
+    border-radius: 30px;
 }
 .card{
     display:flex;
     flex-direction: column;
 border: 1px orange solid;
 border-radius: 20px;
-width: 30%;
-gap: 20px;
-padding: 10px;
+max-width: 50%;
+min-width: 100px;
+flex: 1 0 100px;
+gap: 40px;
+padding: 35px;
 background-color: #bdbd57;
+
 }
 h3{
     text-align: center;
